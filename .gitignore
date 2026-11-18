@@ -1,0 +1,30 @@
+# Збірка CMake і Qt Creator
+build/
+build-*/
+out/
+CMakeLists.txt.user*
+*.user
+*.autosave
+.qtcreator/
+
+# Об'єктні та виконувані файли
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+
+# Робоча база даних програми
+*.db
+*.sqlite
+
+# Тимчасові файли Word і draw.io
+~$*
+*.bkp
+*.dtmp
+
+# Робочі нотатки і шаблони кафедри (не публікуємо)
+HANDOFF_kursova.md
+DOCTRINE.md
+ORDER.md
+docs/templates/
